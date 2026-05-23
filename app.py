@@ -7,7 +7,7 @@ st.sidebar.title("Parámetros")
 st.sidebar.image('python_logo.png')
 st.image('python_logo.png')
 
-modulo =st.selectbox("Seleccion un Módulo", ("Módulo1","Módulo2",Módulo3))
+modulo =st.selectbox("Seleccion un Módulo", ["Módulo1","Módulo2","Módulo3"])
                      
 uploaded_files = st.file_uploader(
     "Upload data", accept_multiple_files=True, type="csv"
